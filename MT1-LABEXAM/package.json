@@ -1,0 +1,23 @@
+{
+  "name": "mt1-labexam",
+  "version": "1.0.0",
+  "description": "Hospital Patient Management application using Node.js HTTP, FS and Express modules",
+  "main": "expressApp.js",
+  "scripts": {
+    "start:http": "node httpServer.js",
+    "start:express": "node expressApp.js",
+    "start": "node expressApp.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "hospital",
+    "patient-management",
+    "lab-exam"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
